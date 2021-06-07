@@ -1,0 +1,166 @@
+.carousel .bannerImage{
+    height: 80vh;
+    width: 100%;
+}
+.carousel h5{
+    color:orange;
+    font-size:xx-large;
+    text-transform: uppercase;
+}
+.carousel p{
+    background-color: rgba(19, 143, 133, 0.39);
+    padding: 10px;
+    font-size: 24px;
+}
+
+.border{
+    background: gold;
+    height: 5px!important;
+    width: 40px;
+    margin: 10px 0px;
+}
+
+/* Marketing section */
+.marketingSection{
+    color: white !important;
+}
+ .marketingSection i{
+     width: 100px;
+     height: 100px;
+     color:darkorange;
+     border:2px solid gold ;
+     padding: 20px;
+     border-radius: 40px;
+     transition: 2s linear;
+     font-size: 32px;
+ }   
+ .marketingSection i:hover{
+    border-radius: 50px;
+}
+.marketingSection p.read{
+    max-width: 50%;
+    text-align: center;
+}
+.excellenceSection img{
+    box-shadow: 20px 20px gold;
+}
+.memberSection{
+    padding: 105px;
+    background-color: gold;
+    color:white;
+}
+.memberSection h2{
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+
+}
+.memberSection .border{
+    background:white;
+    height: 7px!important;
+    width: 50px;
+    margin: 10px 2px;
+    border-style:
+} 
+.memberSection p{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.ourExcellence span{
+    color: gold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.ourExcellence img{
+    box-shadow:10px 10px rgba(224, 228, 26, 0.856);
+    height: 80%;
+    opacity: .9;
+    
+}
+.ourExcellence img:hover{
+    transform: scale(1.5);
+    transition: 0.7s linear;
+    border-radius: 50%;
+}
+.newsSection h2 span{
+    color:orange !important;
+
+}
+.newsSection img{
+    height: 200px;
+}
+.newsSection img:hover{
+    opacity: .3;
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: .5s linear;
+}
+.newsSection .card{
+transition: .5s linear;
+}
+.newsSection .card:hover{
+    box-shadow: 0 0 10px 0px gold;
+    cursor: help;
+    transition: .7s linear;
+    margin-bottom: 10px;
+}
+.newsSection .card p{
+    text-align: right !important;
+    font-size: 14px;
+}
+.newsSection .row{
+    max-width: 100% !important;
+    max-height: 70% !important;
+}
+footer{
+    color: white;
+}
+footer h4{
+    text-transform:uppercase ;
+    font-weight: 700;
+}
+footer p span{
+    font-weight: 400;
+    color: darkgray !important;
+}
+footer ul.social li{
+    display: inline-block !important;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    border: 2px solid gold;
+    border-radius: 40%;
+    text-align: center;
+}
+footer ul li a i{
+    position: relative;
+    margin:10px 10px;
+}
+.facebook{
+    color: #3b5998;
+}  
+.twitter{
+    color: #38a1f3;
+}
+.instagram{
+    color: #e1306c;
+}
+.plus{
+    color: #db4a39;
+}
+.youtube{
+    color: rgba(196, 29, 29, 0.87);
+}
+footer ul li:hover{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+footer ul.quick-links li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
