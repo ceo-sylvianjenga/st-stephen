@@ -60,7 +60,6 @@
     height: 7px!important;
     width: 50px;
     margin: 10px 2px;
-    border-style:
 } 
 .memberSection p{
     font-weight: 600;
@@ -190,4 +189,18 @@ footer ul.quick-links li{
 }
 .our-values i:hover{
     border-radius: 50px;
+}
+.bannersectionstaff{
+    background-image: url('../images/18.jpg');
+    background-size: cover;
+    min-height: 150px;
+    padding: 80px;
+}
+.staff img{
+    border-radius: 50%;
+    transition: .7s linear;
+}
+.staff img:hover{
+    box-shadow: 0 0 10px 0px gold;
+
 }
