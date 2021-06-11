@@ -116,6 +116,7 @@ transition: .5s linear;
 }
 footer{
     color: white;
+    margin:10px 10px ;
 }
 footer h4{
     text-transform:uppercase ;
@@ -203,4 +204,17 @@ footer ul.quick-links li{
 .staff img:hover{
     box-shadow: 0 0 10px 0px gold;
 
+}
+.clubsSection{
+    background-image: url('../images/36.webp');
+    background-size: cover;
+    min-height: 200px;
+    padding: 80px;
+}
+.clubsSection img{
+    box-shadow: 10px 10px gold;
+}
+.clubsSection p{
+    font-size:20px;
+    color: darkgray;
 }
